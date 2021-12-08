@@ -1,8 +1,13 @@
 {
-  "name": "nodejs",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "node",
   "version": "1.0.0",
-  "description": "\"My first package\"",
+  "description": "test",
   "main": "index.js",
+  "devDependencies": {},
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,17 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/Sheb95/node.git"
   },
-  "keywords": [
-    "\"first\""
-  ],
-  "author": "Sheb Sauders",
+  "author": "Sheb Saund",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sheb95/node/issues"
   },
-  "homepage": "https://github.com/Sheb95/node#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.15"
-  }
+  "homepage": "https://github.com/Sheb95/node#readme"
 }
